@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib64/hw/sensors.leo.so:system/lib64/hw/sensors.leo.so \
-    vendor/xiaomi/leo/proprietary/lib64/hw/sensors.lsm6db0.so:system/vendor/lib64/libsensors.lsm6db0.so \
     vendor/xiaomi/leo/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
     vendor/xiaomi/leo/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
     vendor/xiaomi/leo/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
@@ -117,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
-    vendor/xiaomi/leo/proprietary/lib/hw/sensors.lsm6db0.so:system/vendor/lib/libsensors.lsm6db0.so \
     vendor/xiaomi/leo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/xiaomi/leo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/leo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
