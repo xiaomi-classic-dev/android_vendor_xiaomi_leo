@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/leo/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/leo/proprietary/etc/thermal-engine-8994.conf:system/etc/thermal-engine-8994.conf \
+    vendor/xiaomi/leo/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/xiaomi/leo/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/leo/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/leo/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -125,6 +126,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/lib64/libstagefright_soft_ffmpegadec.so:system/lib64/libstagefright_soft_ffmpegadec.so \
     vendor/xiaomi/leo/proprietary/lib64/libstagefright_soft_h264dec.so:system/lib64/libstagefright_soft_h264dec.so \
     vendor/xiaomi/leo/proprietary/lib64/libstagefright_soft_h264enc.so:system/lib64/libstagefright_soft_h264enc.so \
+    vendor/xiaomi/leo/proprietary/lib64/libFFmpegExtractor.so:system/lib64/libFFmpegExtractor.so \
+    vendor/xiaomi/leo/proprietary/lib64/libffmpeg_avcodec.so:system/lib64/libffmpeg_avcodec.so \
+    vendor/xiaomi/leo/proprietary/lib64/libffmpeg_utils.so:system/lib64/libffmpeg_utils.so \
     vendor/xiaomi/leo/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
@@ -136,6 +140,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
     vendor/xiaomi/leo/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/xiaomi/leo/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
+    vendor/xiaomi/leo/proprietary/lib/libdirac.so:system/lib/libdirac.so \
+    vendor/xiaomi/leo/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
+    vendor/xiaomi/leo/proprietary/lib/libFFmpegExtractor.so:system/lib/libFFmpegExtractor.so \
+    vendor/xiaomi/leo/proprietary/lib/libffmpeg_avcodec.so:system/lib/libffmpeg_avcodec.so \
+    vendor/xiaomi/leo/proprietary/lib/libffmpeg_utils.so:system/lib/libffmpeg_utils.so \
     vendor/xiaomi/leo/proprietary/lib/libstagefright_soft_ffmpegadec.so:system/lib/libstagefright_soft_ffmpegadec.so \
     vendor/xiaomi/leo/proprietary/lib/libstagefright_soft_h264dec.so:system/lib/libstagefright_soft_h264dec.so \
     vendor/xiaomi/leo/proprietary/lib/libstagefright_soft_h264enc.so:system/lib/libstagefright_soft_h264enc.so \
