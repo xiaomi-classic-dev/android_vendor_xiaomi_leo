@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/leo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/leo/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/xiaomi/leo/proprietary/bin/netd:system/bin/netd \
     vendor/xiaomi/leo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/leo/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/leo/proprietary/bin/pm-service:system/bin/pm-service \
