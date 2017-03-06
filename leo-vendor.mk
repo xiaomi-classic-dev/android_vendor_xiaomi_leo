@@ -342,6 +342,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/vendor/lib/libactuator_rohm_bu64244gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64244gwz_camera.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libactuator_rohm_bu64244gwz.so:system/vendor/lib/libactuator_rohm_bu64244gwz.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/xiaomi/leo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/xiaomi/leo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
