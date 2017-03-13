@@ -115,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/xiaomi/leo/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
+    vendor/xiaomi/leo/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/xiaomi/leo/proprietary/lib64/hw/sensors.leo.so:system/lib64/hw/sensors.leo.so \
     vendor/xiaomi/leo/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
     vendor/xiaomi/leo/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
@@ -131,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
+    vendor/xiaomi/leo/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/xiaomi/leo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
     vendor/xiaomi/leo/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/xiaomi/leo/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
