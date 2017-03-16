@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/leo/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/leo/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/leo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/leo/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/xiaomi/leo/proprietary/bin/mmbn-daemon:system/bin/mmbn-daemon \
     vendor/xiaomi/leo/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
@@ -177,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
-    vendor/xiaomi/leo/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
     vendor/xiaomi/leo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
     vendor/xiaomi/leo/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/xiaomi/leo/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
@@ -1015,6 +1013,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/xiaomi/leo/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
@@ -1101,8 +1100,6 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmm-abl \
     libqcci_legacy \
-    libqct_resampler \
-    libqct_resampler.qcom \
     libqmi_cci \
     libqmi_client_qmux \
     libqmiservices \

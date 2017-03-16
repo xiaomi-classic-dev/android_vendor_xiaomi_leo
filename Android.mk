@@ -373,30 +373,6 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
-# libqct_resampler wrapper
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqct_resampler
-LOCAL_SRC_FILES := libqct_resampler/qct_resampler.cpp
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libcutils liblog
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_CFLAGS := -Wall -ldl
-include $(BUILD_SHARED_LIBRARY)
-
-# libqct_resampler.qcom
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqct_resampler.qcom
-LOCAL_SRC_FILES := proprietary/vendor/lib/libqct_resampler.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_cci
 LOCAL_MODULE_OWNER := xiaomi
