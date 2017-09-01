@@ -6,5 +6,4 @@
     chmod -h 600 /persist/PSensorThFar.txt
     chown -h system:system /persist/PRSensorData.txt
     chmod -h 600 /persist/PRSensorData.txt
-    setprop ro.hardware.sensors leo
     /system/bin/log -p e -t "SensorSelect" "Use sensors.leo"
