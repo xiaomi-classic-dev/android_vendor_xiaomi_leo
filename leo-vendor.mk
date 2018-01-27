@@ -189,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/xiaomi/leo/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
@@ -779,7 +778,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/xiaomi/leo/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/leo/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/xiaomi/leo/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/xiaomi/leo/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/leo/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/leo/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
@@ -908,7 +906,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
-    QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
