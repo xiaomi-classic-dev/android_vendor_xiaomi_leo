@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/leo/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/leo/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/xiaomi/leo/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/leo/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/leo/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/leo/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/leo/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/leo/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/xiaomi/leo/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/leo/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/leo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/leo/proprietary/bin/lowi-server:system/bin/lowi-server \
