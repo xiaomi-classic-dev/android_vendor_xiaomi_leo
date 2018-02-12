@@ -880,7 +880,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     ims \
     imssettings \
