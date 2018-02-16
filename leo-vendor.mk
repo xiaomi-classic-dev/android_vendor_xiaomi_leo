@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,16 +21,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/leo/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/leo/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
-    vendor/xiaomi/leo/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/xiaomi/leo/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/xiaomi/leo/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
+    vendor/xiaomi/leo/proprietary/vendor/bin/gpsone_daemon:system/vendor/bin/gpsone_daemon \
     vendor/xiaomi/leo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/leo/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/leo/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/leo/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/leo/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/xiaomi/leo/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/leo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/xiaomi/leo/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/xiaomi/leo/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/xiaomi/leo/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/xiaomi/leo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/leo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/leo/proprietary/bin/mmbn-daemon:system/bin/mmbn-daemon \
@@ -46,8 +46,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/leo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/leo/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/xiaomi/leo/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/xiaomi/leo/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/xiaomi/leo/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/xiaomi/leo/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/xiaomi/leo/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/leo/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/leo/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
