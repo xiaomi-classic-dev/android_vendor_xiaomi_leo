@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/xiaomi/leo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/leo/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/xiaomi/leo/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/leo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/leo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/leo/proprietary/bin/tftp_server:system/bin/tftp_server \
