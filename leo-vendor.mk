@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/leo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/leo/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/leo/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
     vendor/xiaomi/leo/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/leo/proprietary/etc/thermal-engine-8994.conf:system/etc/thermal-engine-8994.conf \
     vendor/xiaomi/leo/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -879,5 +878,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location.vzw_library \
     izat.xt.srv \
     qcnvitems \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
