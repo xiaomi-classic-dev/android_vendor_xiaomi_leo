@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!---/******************************************************************************
-* @file    com.qti.location.sdk.xml
+* @file    com.qualcomm.location.vzw_library.xml
 * @brief   configuration file for permission mapping and library publishing
-*  Copyright (c) 2015 Qualcomm Technologies, Inc.
-*  All Rights Reserved.
-*  Confidential and Proprietary - Qualcomm Technologies, Inc.
+*  Coppyright (C) 2010 Qualcomm Technologies, Inc.
+*  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.
 *  *****************************************************************************-->
+
 
 <permissions>
 
-<library name="com.qti.location.sdk" file="/system/framework/com.qti.location.sdk.jar"/>
+<library name="com.qualcomm.location.vzw_library" file="/vendor/framework/com.qualcomm.location.vzw_library.jar"/>
 
 </permissions>
+
