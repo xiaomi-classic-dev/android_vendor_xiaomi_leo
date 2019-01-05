@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2018 The MoKee Open Source Project
+# Copyright (C) 2017-2019 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/leo/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/leo/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/leo/proprietary/vendor/etc/pp_calib_data_jdi_fbc20_wqhd_cmd_mode_dsi_panel.xml:system/vendor/etc/pp_calib_data_jdi_fbc20_wqhd_cmd_mode_dsi_panel.xml \
+    vendor/xiaomi/leo/proprietary/vendor/etc/pp_calib_data_sharp_fbc20_wqhd_cmd_mode_dsi_panel.xml:system/vendor/etc/pp_calib_data_sharp_fbc20_wqhd_cmd_mode_dsi_panel.xml \
     vendor/xiaomi/leo/proprietary/vendor/etc/thermal-engine-8994.conf:system/vendor/etc/thermal-engine-8994.conf \
     vendor/xiaomi/leo/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:system/vendor/lib/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/leo/proprietary/vendor/lib/hw/camera.vendor.msm8994.so:system/vendor/lib/hw/camera.vendor.msm8994.so \
