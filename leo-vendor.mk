@@ -30,6 +30,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/leo/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/leo/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/leo/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/xiaomi/leo/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/xiaomi/leo/proprietary/vendor/etc/pp_calib_data_jdi_fbc20_wqhd_cmd_mode_dsi_panel.xml:system/vendor/etc/pp_calib_data_jdi_fbc20_wqhd_cmd_mode_dsi_panel.xml \
     vendor/xiaomi/leo/proprietary/vendor/etc/pp_calib_data_sharp_fbc20_wqhd_cmd_mode_dsi_panel.xml:system/vendor/etc/pp_calib_data_sharp_fbc20_wqhd_cmd_mode_dsi_panel.xml \
     vendor/xiaomi/leo/proprietary/vendor/etc/thermal-engine-8994.conf:system/vendor/etc/thermal-engine-8994.conf \
